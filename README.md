@@ -120,6 +120,6 @@ http://127.0.0.1:8000/docs
 
 
 
-## 📌 Author
+## Author
 
 Built while learning backend development with FastAPI.
