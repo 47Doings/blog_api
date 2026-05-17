@@ -1,10 +1,9 @@
-# 📝 Blogging Platform API (FastAPI)
+# Blogging Platform API (FastAPI)
 
 A simple RESTful API for a personal blogging platform built with FastAPI. It supports full CRUD operations and search functionality.
 
----
 
-## 🚀 Features
+## Features
 
 - Create a blog post
 - Get all blog posts
@@ -15,18 +14,17 @@ A simple RESTful API for a personal blogging platform built with FastAPI. It sup
 - Input validation using Pydantic
 - Auto-generated API documentation (Swagger UI)
 
----
 
-## 🧱 Tech Stack
+## Tech Stack
 
 - Python
 - FastAPI
 - Uvicorn
 - Pydantic
 
----
 
-## 📁 Project Structure
+
+## Project Structure
 
 blog_api/
 │
@@ -35,27 +33,27 @@ blog_api/
 └── routes/
     └── posts.py
 
----
 
-## ▶️ How to Run the Project
+
+## How to Run the Project
 
 ### 1. Install dependencies
 pip install fastapi uvicorn
 
----
+
 
 ### 2. Start the server
 python -m uvicorn main:app --reload
 
----
+
 
 ### 3. Open in browser
 API: http://127.0.0.1:8000  
 Swagger Docs: http://127.0.0.1:8000/docs  
 
----
 
-## 📌 API Endpoints
+
+## API Endpoints
 
 POST /posts → Create Post  
 GET /posts → Get All Posts  
@@ -64,9 +62,9 @@ PUT /posts/{post_id} → Update Post
 DELETE /posts/{post_id} → Delete Post  
 GET /posts?term=tech → Search Posts  
 
----
 
-## 🧪 Example Request (Create Post)
+
+## Example Request (Create Post)
 
 POST /posts
 {
@@ -76,9 +74,9 @@ POST /posts
   "tags": ["fastapi", "python"]
 }
 
----
 
-## 📤 Example Response
+
+## Example Response
 
 {
   "id": 1,
@@ -90,9 +88,9 @@ POST /posts
   "updatedAt": "2026-05-04T15:20:19Z"
 }
 
----
 
-## 🧪 How to Test (Swagger UI)
+
+## How to Test (Swagger UI)
 
 1. Run server:
 python -m uvicorn main:app --reload
@@ -108,9 +106,9 @@ http://127.0.0.1:8000/docs
 - DELETE → delete post  
 - GET ?term= → search  
 
----
 
-## 📚 What I Learned
+
+## What I Learned
 
 - REST API design
 - CRUD operations
@@ -120,7 +118,7 @@ http://127.0.0.1:8000/docs
 - FastAPI routing
 - Swagger testing
 
----
+
 
 ## 📌 Author
 
