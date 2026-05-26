@@ -22,19 +22,6 @@ A simple RESTful API for a personal blogging platform built with FastAPI. It sup
 - Uvicorn
 - Pydantic
 
-
-
-## Project Structure
-
-blog_api/
-│
-├── main.py
-├── schemas.py
-└── routes/
-    └── posts.py
-
-
-
 ## How to Run the Project
 
 ### 1. Install dependencies
